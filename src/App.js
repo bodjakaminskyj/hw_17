@@ -39,6 +39,21 @@ function App() {
 
             }}
       />
+      <Post author={{
+        name: "Anakin skywalker",
+        photo: ANAKIN_IMAGE,
+        nickname: "@dart_vader"
+      }}
+            content="WTF? Who is Ray? Why she is Skywalker? Luke...?"
+            image={RAY_IMAGE}
+            date={" 7 квітня"}
+            statistic = {{
+                coment: 82,
+                repost: 46,
+                like: 87
+
+            }}
+      />
     </div>
   );
 }
